@@ -11,6 +11,6 @@ services:
       - api
 
   api:
-    build: ./api
+    build: api/flask
     expose:
       - "5000"
