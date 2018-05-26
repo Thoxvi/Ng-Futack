@@ -1,0 +1,14 @@
+{
+  "name": "nodejs_api",
+  "version": "1.0.0",
+  "description": "nodejs restful api test for ng-futack",
+  "main": "app.js",
+  "scripts": {
+    "test": "0"
+  },
+  "author": "Thoxvi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
