@@ -1,4 +1,4 @@
-version: "3.2"
+version: "2"
 services:
   ng:
     image: nginx:latest
@@ -12,5 +12,7 @@ services:
 
   api:
     build: api/flask
+    volumes:
+      - "./api/flask:/usr/src/app"
     expose:
       - "5000"
