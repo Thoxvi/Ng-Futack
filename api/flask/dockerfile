@@ -1,5 +1,3 @@
 FROM python:latest
 WORKDIR /usr/src/app
-COPY ./requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt && rm -f requirements.txt
-CMD [ "uwsgi", "uwsgi.ini" ]
+CMD "/usr/src/app/cmd.sh"
